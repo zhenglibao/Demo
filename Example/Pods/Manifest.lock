@@ -1,0 +1,34 @@
+PODS:
+  - FlexLib (2.2.2):
+    - FlexLib/no-arc (= 2.2.2)
+    - Yoga (= 1.6.0)
+  - FlexLib/no-arc (2.2.2):
+    - Yoga (= 1.6.0)
+  - KVOController (1.2.0)
+  - PodLib (0.1.0):
+    - FlexLib (= 2.2.2)
+    - KVOController (= 1.2.0)
+  - Yoga (1.6.0)
+
+DEPENDENCIES:
+  - PodLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FlexLib
+    - KVOController
+    - Yoga
+
+EXTERNAL SOURCES:
+  PodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlexLib: f996d47215bfadf5c55cfc1777e5d10d43a00e2f
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  PodLib: 3d1d5f78047da5045f39e60adfe50c92f22eec51
+  Yoga: 81670877477311136b1b3f69a6307ce62e1c89cf
+
+PODFILE CHECKSUM: 0c6aed0017b566f7afef4bb23dd09e4a37e0eda1
+
+COCOAPODS: 1.7.2
